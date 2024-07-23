@@ -7,13 +7,13 @@ public class Main {
 
     public void printUserData() {
         age = 18;
-        height = 170;
-        name = "Dawn";
+        height = 160;
+        name = "Shenum";
         name.length();
 
         password = "123456";
         if (password.contains("123456") && password.contains("abcdef")) {
-            System.out.println("Invalid pass code (too easy)");
+            System.out.println("Invalid password (too easy)");
         }
     }
 
